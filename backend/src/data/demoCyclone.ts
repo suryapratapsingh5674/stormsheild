@@ -1,5 +1,8 @@
 import { Cyclone } from "../types";
 
+
+
+
 export const demoCyclone: Cyclone = {
   id: "dana-2024",
   name: "Cyclone Dana",
@@ -29,3 +32,4 @@ export const demoCyclone: Cyclone = {
     { lat: 22.1,  lng: 84.9,  timestamp: new Date(Date.now() + 24 * 3600000).toISOString(), windSpeed: 70  },
   ],
 };
+
