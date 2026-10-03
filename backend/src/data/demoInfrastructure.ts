@@ -1,0 +1,28 @@
+import { Infrastructure } from "../types";
+
+export const demoInfrastructure: Infrastructure[] = [
+  { id: "h-001", name: "SCB Medical College & Hospital", type: "HOSPITAL", latitude: 20.469, longitude: 85.879, criticality: 10, capacity: 1500 },
+  { id: "h-002", name: "Puri District Headquarters Hospital", type: "HOSPITAL", latitude: 19.812, longitude: 85.831, criticality: 9, capacity: 350 },
+  { id: "h-003", name: "Berhampur Government Hospital", type: "HOSPITAL", latitude: 19.311, longitude: 84.793, criticality: 9, capacity: 500 },
+  { id: "h-004", name: "Srikakulam District Hospital", type: "HOSPITAL", latitude: 18.298, longitude: 83.896, criticality: 8, capacity: 280 },
+  { id: "h-005", name: "Kendrapara Community Health Centre", type: "HOSPITAL", latitude: 20.502, longitude: 86.420, criticality: 7, capacity: 120 },
+  { id: "p-001", name: "Paradip Power Substation", type: "POWER", latitude: 20.317, longitude: 86.611, criticality: 10 },
+  { id: "p-002", name: "Bhubaneswar Grid Substation", type: "POWER", latitude: 20.296, longitude: 85.824, criticality: 10 },
+  { id: "p-003", name: "Berhampur Thermal Switching Station", type: "POWER", latitude: 19.285, longitude: 84.802, criticality: 9 },
+  { id: "p-004", name: "Gopalpur Coastal Power Node", type: "POWER", latitude: 19.262, longitude: 84.877, criticality: 8 },
+  { id: "b-001", name: "Devi River Road Bridge (NH-316)", type: "BRIDGE", latitude: 20.117, longitude: 86.098, criticality: 9 },
+  { id: "b-002", name: "Mahanadi Barrage Approach Bridge", type: "BRIDGE", latitude: 20.435, longitude: 85.889, criticality: 8 },
+  { id: "b-003", name: "Rushikulya River Coastal Bridge", type: "BRIDGE", latitude: 19.397, longitude: 85.012, criticality: 7 },
+  { id: "b-004", name: "Bahuda River NH-516 Bridge", type: "BRIDGE", latitude: 18.820, longitude: 84.211, criticality: 7 },
+  { id: "b-005", name: "Chilika Lake Causeway", type: "BRIDGE", latitude: 19.717, longitude: 85.329, criticality: 8 },
+  { id: "s-001", name: "Puri Govt. High School (Cyclone Shelter)", type: "SCHOOL", latitude: 19.798, longitude: 85.817, criticality: 6, capacity: 800 },
+  { id: "s-002", name: "Konark Model School Shelter", type: "SCHOOL", latitude: 19.897, longitude: 86.115, criticality: 5, capacity: 600 },
+  { id: "s-003", name: "Gopalpur Bay School Shelter", type: "SCHOOL", latitude: 19.256, longitude: 84.858, criticality: 6, capacity: 500 },
+  { id: "e-001", name: "Odisha SDRF Staging Camp — Puri", type: "EMERGENCY", latitude: 19.821, longitude: 85.839, criticality: 10 },
+  { id: "e-002", name: "NDRF Battalion 4 — Bhubaneswar", type: "EMERGENCY", latitude: 20.270, longitude: 85.844, criticality: 10 },
+  { id: "e-003", name: "Coast Guard Station Gopalpur", type: "EMERGENCY", latitude: 19.258, longitude: 84.860, criticality: 9 },
+  { id: "pt-001", name: "Paradip Port Trust", type: "PORT", latitude: 20.316, longitude: 86.620, criticality: 9 },
+  { id: "pt-002", name: "Gopalpur Port", type: "PORT", latitude: 19.261, longitude: 84.869, criticality: 7 },
+  { id: "sh-001", name: "Ersama Multipurpose Cyclone Shelter", type: "SHELTER", latitude: 20.212, longitude: 85.988, criticality: 8, capacity: 1200 },
+  { id: "sh-002", name: "Astaranga Coastal Shelter Complex", type: "SHELTER", latitude: 19.981, longitude: 86.055, criticality: 7, capacity: 900 },
+];
