@@ -11,7 +11,6 @@ function CycloneCard({ cyclone }: { cyclone: Cyclone }) {
 
   return (
     <div className="glass rounded-2xl p-6 hover:border-slate-600/60 transition-all">
-      {/* Header */}
       <div className="flex items-start justify-between mb-4">
         <div>
           <div className="flex items-center gap-2 mb-1">
